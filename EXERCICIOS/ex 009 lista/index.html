@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas OL E UL</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I" start="4">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para o trabalho</li>
+        <li>Ir para academia</li>
+        <li>Voltar para casa</li>
+        <li>Estudar programaçao</li>
+        <!--a tag <ol> ira numerar em num (1,2,3..) caso eu queria numerar de outra forma, basta colocar a tag type= logo apos a <ol> ficando <ol type=""> como esta acima. Posso usar a tag start tbm para iniciar minha lista em outra sequencia por exemplo começar com 4-->
+    </ol>
+    <h2>Listas nao Ordenadas</h2>
+    <ul type="disc">
+        <li>comprar pao</li>
+        <li>comprar leite</li>
+        <li>comprar café</li>
+        <li>comprar nescau</li>
+        <!---Aqui tbm temos a tag type que muda a bolinha preta no inicio da lista, temos, disc, circle, square-->
+
+    </ul>
+    <h2>Juntando listas versao 1.0</h2>
+    <h2>Meus jogadores favoritos</h2>
+    <ol>
+        <li>Antigos</li>
+        <ol type="a">
+            <li>Petkovic</li>
+            <li>Adriano Imperador</li>
+            <li>Léo Moura</li>
+            <li>Ronaldo Angelim</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="a" start="5"> <!--caso queira iniciar a outra lista com a continuaçao da primeira como esta no exemple é so adicionar a tag start= e a numeraçao que vai iniciar, porem o certo é iniciar do zero na outra lista-->
+            <li>Arrascaeta</li>
+            <li>Bruno Henrique</li>
+            <li>Gabigol</li>
+            <li>Filipe Luis</li>
+            <li>Cuellar</li>
+            <li>Everton Ribeiro</li>
+        </ol> 
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Nitendo</li>
+        <ul type="circle">
+            <li>Mario Bros</li>
+            <ul>
+                <li>Mario Bros 3</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>Super Nitendo</li>
+        <ul type="circle">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="circle">
+            <li>Bomba Patch</li>
+            <ul>
+                <li>Todas as versons</li>
+            </ul>
+            <li>GTA</li>
+            <ul>
+                <li>San Andreas</li>
+                <li>IV</li>
+            </ul>
+        </ul>
+    </ol>
+    <h2>Lista de definiçao</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcaçao para criaçao do conteudo de um site</dd>
+        <dt>CSS</dt>
+        <DD>Linguagem de marcaçao para criaçao do design de um site</DD>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programaçao para a criaçao de interatividade de um site</dd>
+    </dl>
+</body>
+</html>

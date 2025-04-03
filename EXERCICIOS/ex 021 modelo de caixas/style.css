@@ -1,0 +1,75 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+
+header{ 
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(149, 48, 48);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+nav{
+    background-color: rgb(107, 106, 106);
+    padding: 3px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
+    border-radius: 10px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#Me\ conhecendo p {
+    text-align: center;
+    background-color: darkgray;
+    color: rgba(198, 9, 9, 0.766);
+    font-weight: bold ;
+    padding: 10px;
+    margin: 0px;
+    
+}
+
+#Me\ conhecendo p:hover{
+    text-decoration:underline rgb(15, 1, 1);
+}
+
+article{
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+article > aside{
+    background-color: rgb(129, 129, 132);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+footer > p{
+    margin: 0px;
+}

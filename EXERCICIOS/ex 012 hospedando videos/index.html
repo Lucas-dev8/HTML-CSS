@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospedando videos</title>
+</head>
+<body>
+    <h1>Hospedando videos</h1>
+    <p>este video esta hospedado no meu proprio servidor</p>
+    <video width="200" poster="imagem/imagem-capa-video.jpg" controls loop>
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mkv" type="video/mkv">
+        <source src="midia/Meu-Video web.mp4" type="video/mp4">
+        <p>Seu navegador nao reproduz este formato de video</p>
+    </video>
+    <!--Aqui podemos colocar videos sem consumir dados do site do cliente, assim nao ficcando tao caro para manter o site, só ir no youtube ou sites diversos e incorporar o video-->
+    <h1>Hospedando videos externos</h1>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/ijqjqwiNdV4?si=GOrJcY_7g13OzkDS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Incorporando video do site vimeo.com</h1>
+    <iframe src="https://player.vimeo.com/video/29315013?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Animation Reel"></iframe>
+
+    
+</body>
+</html>
